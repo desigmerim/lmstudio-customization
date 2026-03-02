@@ -67,7 +67,7 @@ customLayerSolardark={id:"solardark",displayName:"Solarized Dark",mode:"dark",ex
   example:
   ring:"40 130 220"},customSwatches
   Replace to:
-  ring:"40 130 220",elevated:"18 18 18"},customSwatches
+  ring:"40 130 220",elevated:"25 25 25"},customSwatches
 
 
 
