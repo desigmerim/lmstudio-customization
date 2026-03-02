@@ -63,4 +63,17 @@ customLayerSolardark={id:"solardark",displayName:"Solarized Dark",mode:"dark",ex
 Replace to:
 customLayerSolardark={id:"solardark",displayName:"Solarized Dark",mode:"dark",extends:"base.dark",semanticTokens:{"theme-swatch-shade-0":"rgb(14 14 14)","theme-swatch-shade-1":"rgb(8 8 8)","theme-swatch-shade-2":"rgb(20 20 20)","theme-swatch-shade-3":"rgb(28 28 28)","theme-swatch-shade-4":"rgb(38 38 38)","theme-swatch-shade-5":"rgb(52 52 52)","theme-swatch-shade-6":"rgb(70 70 70)","theme-swatch-shade-7":"rgb(95 95 95)","theme-swatch-shade-8":"rgb(125 125 125)","theme-swatch-shade-9":"rgb(160 160 160)","theme-swatch-shade-10":"rgb(200 200 200)",background:"rgb(14 14 14)",foreground:"rgb(210 210 210)",warning:"rgb(180 140 0)",destructive:"rgb(200 45 42)",active:"40 130 220","lm-indigo":"90 105 210","lm-green":"100 175 80","lm-red":"200 45 42","lm-yellow":"180 140 0","lm-blue":"40 130 220","lm-orange":"200 90 30","lm-teal":"40 160 200"},componentTokens:{appheader:"4 4 4","ascii-logo":"40 160 200","chatbody-foreground":"215 215 215",chatbubble:"18 18 18",chatbody:"14 14 14",chatinput:"18 18 18","chatinput-foreground":"200 200 200","chatinput-placeholder":"110 110 110",ring:"40 130 220"},customSwatches:{}}},
 
+Additionally, to specify the Chat message edit background color, add: 【elevated:"25 25 25"】
+example:
+ring:"40 130 220"},customSwatches
+Replace to:
+ring:"40 130 220",elevated:"18 18 18"},customSwatches
+
+
+
+
+
+
+
+
 ```
