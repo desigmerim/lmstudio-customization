@@ -48,10 +48,10 @@ line-height {\r\n  line-height: 1.6
 Replace to:
 line-height {\r\n  line-height: 1.8
 
-- Model tab color at top center (v0.4.6)
+- Model tab color at top center (This color is the same as the link text color in the model search results.) (v0.4.6)
 "lm-indigo":"90 105 210"
 Replace to:
-"lm-indigo":"25 35 45"
+"lm-indigo":"55 65 75"
 
 - Folders and chats are now sorted alphabetically (v0.4.6)
 e.getChatSidebarComparator=function(t){const e="asc"===t.direction?1:-1;return(i,o)=>{const l="directory"===i.type?0:1,s="directory"===o.type?0:1;if(l!==s)return l-s;if("alphabetical"===t.field){const t=r(i),a=r(o),n=String(t).localeCompare(String(a),void 0,{sensitivity:"base"});return 0!==n?n*e:i.relativePath.localeCompare(o.relativePath)}{let r,l;return"file"===i.type&&"file"===o.type?(r=a(i,t.field),l=a(o,t.field)):"directory"===i.type&&"directory"===o.type?(r=n(i,t.field),l=n(o,t.field)):(r=0,l=0),r!==l?(r-l)*e:i.relativePath.localeCompare(o.relativePath)}}}
@@ -81,10 +81,17 @@ Replace to:
 Replace to:
 .markdown-body blockquote {\r\n  margin: 0;\r\n  padding: 0 1em;\r\n  color: rgb(210, 210, 195);\r\n
 
+- Render <br> tags inside markdown table cells
+processor:i?B:S,
+Replace to:
+processor:B,
 
-	Last updated: 2026-03-03
+- Render table when separator cell contains only ':'
+const m=t.replaceAll(/\\[()]/g,"$").replaceAll(/\\[[\]]/g,"$$")
+Replace to:
+const m=t.replaceAll(/\\[()]/g,"$").replaceAll(/\\[[\]]/g,"$$").replace(/\|\s*:\s*\|/g,"|:-|")
 
 
 
-
+		Last updated: 2026-03-07
 ```
