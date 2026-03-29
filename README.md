@@ -93,6 +93,11 @@ markdown-body {\r\n  --font-scale-h1: 1.6em;\r\n  --font-scale-h2: 1.35em;\r\n  
 Replace to:
 \n.markdown-body strong {\r\n  font-weight: 400;\r\n}\r\n\
 
+- Change the MD table to draw even if there is no "-" in the rightmost column of the separator row. (v0.4.8)
+hideCodeBlockCopyButton:u,hideCodeBlockLanguageHeader:g,codeblockIsClosedOverride:p,...v})=>{const m=(0,d.useMemo)((()=>({...k.customTagComponents,
+Replace to:
+hideCodeBlockCopyButton:u,hideCodeBlockLanguageHeader:g,codeblockIsClosedOverride:p,...v})=>{t=t.replace(/\|\s*:\s*(?=\|)/g,"|:-");const m=(0,d.useMemo)((()=>({...k.customTagComponents,
+
 
     Last updated: 2026-03-30
 ```
