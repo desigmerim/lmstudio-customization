@@ -40,9 +40,9 @@ var(--tw-bg-opacity));\n}\r\n.bg-\\[\\#3154e1\\] {\n  --tw-bg-opacity: 1;\n  bac
 Replace to:
 var(--tw-bg-opacity));\n}\r\n.bg-\\[\\#3154e1\\] {\n  --tw-bg-opacity: 1;\n  background-color: rgb(40 35 35
 [2nd place]
-[#222222] dark:text-[#DADADA]",e.WindowsAppStatusBarBackground="bg-[#282323]
-Replace to:
 [#222222] dark:text-[#DADADA]",e.WindowsAppStatusBarBackground="bg-[#3154e1]
+Replace to:
+[#222222] dark:text-[#DADADA]",e.WindowsAppStatusBarBackground="bg-[#282323]
 [3rd place]
 background-color: rgb(38 44 50 / var(--tw-bg-opacity));\n}\r\n.bg-\\[\\#3154e1
 Replace to:
