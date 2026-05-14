@@ -5,7 +5,7 @@ LM Studio's UI is messy, so I've improved it.
 
 All current code works with v0.4.0 to v0.4.8 (windows).
 
-Should work for all v0.4 releases.
+It might not work with the latest version of LM Studio.
 
 Pull requests welcome.
 
